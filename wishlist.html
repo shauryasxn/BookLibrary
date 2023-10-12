@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist - Digital Library</title> <!-- Update the title accordingly -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your shared CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>DigitalLibrary</a>
+            <form action="" class="search-form">
+                <input type="search" placeholder="search here" id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#sci-fi">Sci-fi</a>
+                <a href="#thriller">Thriller</a>
+                <a href="#non-fiction">Non Fiction</a>
+                <a href="#biography">Biography</a>
+                <a href="#self-help">Self-help</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="wishlist-content">
+        <h1>My Wishlist</h1>
+
+        <div class="wishlist-books">
+            <div class="book">
+                <img src="book.jpeg" alt="Book Title 1">
+                <div class="book-info">
+                    <h2>Book Title 1</h2>
+                    <p>Author: Author Name 1</p>
+                </div>
+                <button class="download-button">Download</button>
+            </div>
+
+            <div class="book">
+                <img src="book.jpeg" alt="Book Title 2">
+                <div class="book-info">
+                    <h2>Book Title 2</h2>
+                    <p>Author: Author Name 2</p>
+                </div>
+                <button class="download-button">Download</button>
+            </div>
+
+            <div class="book">
+                <img src="book.jpeg" alt="Book Title 2">
+                <div class="book-info">
+                    <h2>Book Title 2</h2>
+                    <p>Author: Author Name 2</p>
+                </div>
+                <button class="download-button">Download</button>
+            </div>
+<button class="feedback-button" id="feedback-button">Feedback</button>
+<div class="feedback-overlay" id="feedback-overlay"></div>
+<div class="feedback-popup" id="feedback-popup">
+    <div class="feedback-container">
+        <span class="feedback-close" id="feedback-close">&times;</span>
+        <h2 class="feedback-title">Feedback</h2>
+        <form class="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your feedback message" required></textarea>
+
+            <button type="submit" class="feedback-button-submit">Submit Feedback</button>
+        </form>
+    </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
