@@ -308,7 +308,7 @@ body {
     align-items: center;
 }
 
-.download-button {
+.download-button3 {
     background-color: var(--pink-red); 
     color: white;
     border: none;
@@ -316,13 +316,42 @@ body {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     top: 50%; 
     transform: translateY(-50%); 
-    margin-left: 35%;
+    margin-left: 33%;
     margin-top: 5%;
 }
 
+.download-button1 {
+    background-color: var(--pink-red); 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.download-button2 {
+    background-color: var(--pink-red); 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin-left: 21%;
+    margin-top: 5%;
+}
 /* Feedback button style */
 .feedback-button {
     position: absolute;
